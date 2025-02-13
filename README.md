@@ -1,11 +1,22 @@
-# Proyecto en fase de prueba con arquitectura de diseño MVVM(Modelo, Vista, Vista, Modelo)
+# Proyecto en fase de prueba con arquitectura de diseño MVVM(Modelo, Vista, Vista, Modelo) con Principio SOLID
 
-## App de bienvenida a REACT Native
+## App de Bienvenida con Usuario a REACT Native
 
-### Dependencia necesaria para desarrollo en web
-- `Dependencia instalada = expo react-dom react-native-web @expo/webpack-config`
+### Dependencia necesaria para desarrollo en web con Expo Go
 > Ejecuta el siguiente comando en la terminal con el directorio de la app, para una correcta instalacion exacta de la dependencia:
 - _`npx expo install react-dom react-native-web @expo/metro-runtime`_
+
+### Dependencia necesaria para navigation/stack
+> Ejecuta el siguiente comando en la terminal con el directorio de la app, para una correcta instalacion exacta de la dependencia:
+- _`npm install @react-navigation/native @react-navigation/stack`_
+
+### Dependencia necesaria para react-native-screens/react-native-safe-area-context
+> Ejecuta el siguiente comando en la terminal con el directorio de la app, para una correcta instalacion exacta de la dependencia:
+- _`npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated`_
+
+### Dependencia necesaria para react-navigation/bottom-tabs
+> Ejecuta el siguiente comando en la terminal con el directorio de la app, para una correcta instalacion exacta de la dependencia:
+- _`npm install @react-navigation/bottom-tabs`_
 
 ###  - Intrucciones -
 Para usar todas estas dependencias en nuestro dispositivo, ejecute en la terminal estando ubicado la ruta principal del archivo:
