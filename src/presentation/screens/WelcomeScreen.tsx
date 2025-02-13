@@ -10,7 +10,7 @@ const WelcomeScreen = () => {
     return (
         <View style={styles.Container}>
             { loading ? (
-                <ActivityIndicator size="large" color="#0000ff" />
+                <ActivityIndicator size="large" color="#0000ff" /> //Animacion de carga o tiempo de espera
             ) : user ? (
                 <>
                 <Text style={styles.welcomeText}>¡Bienvenido a React Native!</Text>
