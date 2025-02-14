@@ -1,4 +1,4 @@
-# Proyecto en fase de prueba con patrón de arquitectura de diseño MVVM(Modelo-Vista-VistaModelo) con principio SOLID
+# Proyecto en fase de prueba con patrón de arquitectura MVVM(Modelo-Vista-VistaModelo) con principio SOLID
 
 ## App de Bienvenida con Usuario a REACT Native
 
