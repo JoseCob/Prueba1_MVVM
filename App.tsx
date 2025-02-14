@@ -3,7 +3,7 @@ import React from "react";
 import { SafeAreaView } from "react-native";
 import AppNavigator from "./src/core/navigation/AppNavigator";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <AppNavigator />
