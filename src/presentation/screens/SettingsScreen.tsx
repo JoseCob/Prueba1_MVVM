@@ -4,14 +4,10 @@ import {View, Text, StyleSheet} from "react-native";
 const SettingsScreen = () => {
     return (
         <View style={styles.container}>
-            <>
-                <Text style={styles.settingsText}>Esta es una página de Configuración de la APP</Text>
-            </>
+            <Text style={styles.settingsText}>Esta es una página de Configuración de la APP</Text>
         </View>
     );
 };
-
-export default SettingsScreen;
 
 const styles = StyleSheet.create({
     container:{
@@ -21,3 +17,5 @@ const styles = StyleSheet.create({
         padding: 20,
     }
 });
+
+export default SettingsScreen;

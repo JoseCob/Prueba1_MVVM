@@ -8,7 +8,7 @@ const WelcomeScreen = () => {
     const { user, loading } = useUserViewModel();
 
     return (
-        <View style={styles.Container}>
+        <View style={styles.container}>
             { loading ? (
                 <ActivityIndicator size="large" color="#0000ff" /> //Animacion de carga o tiempo de espera
             ) : user ? (
@@ -24,7 +24,7 @@ const WelcomeScreen = () => {
 };
 
 const styles = StyleSheet.create({
-    Container:{
+    container:{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
