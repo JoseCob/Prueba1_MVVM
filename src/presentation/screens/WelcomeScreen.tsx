@@ -4,7 +4,7 @@ import React from "react";
 import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 import { useUserViewModel } from "../viewmodels/UserViewModel";
 
-const WelcomeScreen = () => {
+export const WelcomeScreen: React.FC = () => {
     const { user, loading } = useUserViewModel();
 
     return (

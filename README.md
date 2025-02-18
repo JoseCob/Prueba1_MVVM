@@ -32,6 +32,7 @@ Escribe lo siguiente en la consola/terminal, estando en la ruta raíz del proyec
 presionar la tecla "a"
 
 > En caso de seleccionar web presionando la tecla "w". Automaticamente se nos abrira el navegador predeterminado del sistema ejecutando nuestra app enfocado a web.
+> En caso de seleccionar web presionando la tecla "w". Automaticamente se nos abrira el navegador predeterminado del sistema ejecutando nuestra app enfocado a web.
 
 ### Imagen de ejemplo acerca del menú de selección para renderizar el proyecto
 ![Expo_Go_Menu](https://github.com/user-attachments/assets/31784924-1b08-4004-9498-149573e7b692)

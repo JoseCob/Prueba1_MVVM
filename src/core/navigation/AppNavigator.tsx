@@ -12,7 +12,7 @@ const TabNavigator = () => {
     return (
         <NavigationContainer>
             <Tab.Navigator>
-                <Tab.Screen name="Home" options={{ title: "Home" }} component={WelcomeScreen} />
+                <Tab.Screen name="Home" options={{ title: "Inicio" }} component={WelcomeScreen} />
                 <Tab.Screen name="Settings" options={{title: "Configuración" }} component={SettingsScreen} />
             </Tab.Navigator>
         </NavigationContainer>
