@@ -7,6 +7,7 @@ import { useUserViewModel } from "../viewmodels/UserViewModel";
 export const WelcomeScreen: React.FC = () => {
     const { user, loading } = useUserViewModel();
 
+    //Aqui muestra el estado de carga y el nombre del usuario en la página principal "Home"
     return (
         <View style={styles.container}>
             { loading ? (

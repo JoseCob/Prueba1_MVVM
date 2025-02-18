@@ -12,7 +12,7 @@ export class UserRepository implements IUserRepository {
         // Simula una llamada a API o base de datos
         return new Promise ((resolve, reject)=> {
             setTimeout(() => {
-                resolve({ id: 1, name: 'Jose Cob', email: 'jose@example.com' });
+                resolve({ id: 1, name: 'Jose Cob', email: 'jose@example.com', phone:'999-999-9999' });
             }, 1000);
         });
     }
