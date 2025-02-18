@@ -2,7 +2,7 @@
 //*Nota: Cuando es archivo el import no va entre parentesis, solo cuando sea una función hereda de una función en React
 import React from "react";
 import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
-import { useUserViewModel } from "../UserViewModel";
+import { useUserViewModel } from "../viewmodels/UserViewModel";
 
 const WelcomeScreen = () => {
     const { user, loading } = useUserViewModel();
