@@ -1,5 +1,5 @@
 //Vista o pantalla de Bienvenida al usuario en React
-//*Nota: Cuando es archivo el import no va entre parentesis, solo cuando sea una función hereda de una función en React
+//*Nota: Cuando es archivo el import no va entre parentesis, solo cuando una función es heredera de React
 import React from "react";
 import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 import { useUserViewModel } from "../viewmodels/UserViewModel";
@@ -15,7 +15,7 @@ export const WelcomeScreen: React.FC = () => {
             ) : user ? (
                 <>
                 <Text style={styles.welcomeText}>¡Bienvenido a React Native!</Text>
-                <Text style={styles.userName}>{user.name} ❤️</Text>
+                <Text style={styles.userName}>{user.user} ❤️</Text>
                 </>
             ): (
                 <Text style={styles.errorUser}>Error al obtener el usuario</Text>
@@ -30,10 +30,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 25,
+        backgroundColor: "#f1f1f1",
     },
     welcomeText: {
         textAlign: 'center',
         fontSize: 26,
+        marginBottom: 20,
     },
     userName: {
         textAlign: 'center',

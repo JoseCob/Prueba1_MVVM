@@ -1,9 +1,9 @@
 //Aqui se crea la logica de la UI(interfaz) para "WelcomeScreen.tsx"
-//*Nota: Cuando es archivo el import no va entre parentesis, solo cuando sea una función hereda de una función en React
+//*Nota: Cuando es archivo el import no va entre parentesis, solo cuando una función es heredera de React
 import { useState, useEffect } from "react";
+import { User } from "../../data/models/User";
 import { UserRepository } from "../../data/repositories/Repository";
 import { GetUserCase } from "../../domain/useCases/GetUserCase";
-import { User } from "../../data/models/User";
 
 export const useUserViewModel = () => {
     const [user, setUser] = useState<User | null>(null);
