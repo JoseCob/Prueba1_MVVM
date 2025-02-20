@@ -11,7 +11,7 @@ export const WelcomeScreen: React.FC = () => {
     return (
         <View style={styles.container}>
             { loading ? (
-                <ActivityIndicator size="large" color="#0000ff" /> //Animacion de carga o tiempo de espera
+                <ActivityIndicator size="large" color="#0000ff" /> //Animación de carga o tiempo de espera
             ) : user ? (
                 <>
                 <Text style={styles.welcomeText}>¡Bienvenido a React Native!</Text>
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     errorUser:{
         textAlign: 'center',
         fontSize: 26,
-        color:'red'
-    }
+        color:'red',
+    },
 });
 
 export default WelcomeScreen;
