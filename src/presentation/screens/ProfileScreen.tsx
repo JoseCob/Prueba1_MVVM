@@ -43,10 +43,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#f1f1f1",
     },
     imgProfile:{
-        width: 50,
-        height: 50,
+        width: 150,
+        height: 150,
+        borderWidth: 2,
+        borderRadius: 80,
+        borderColor: 'red',
         objectFit: 'contain',
-        filter: '200%',
     },
     profileText:{
         padding: 12,
