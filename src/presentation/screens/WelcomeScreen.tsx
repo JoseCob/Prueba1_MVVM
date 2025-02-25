@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 25,
         backgroundColor: "#f1f1f1",
+        //backgroundColor: 'red',
     },
     welcomeText: {
         textAlign: 'center',

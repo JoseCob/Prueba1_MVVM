@@ -12,8 +12,8 @@ const TabNavigator = () => {
     return (
         <NavigationContainer>
             <Tab.Navigator>
-                <Tab.Screen name="home" options={{ title: "Inicio" }} component={WelcomeScreen} />
-                <Tab.Screen name="profile" options={{title: "Perfil" }} component={ProfileScreen} />
+                <Tab.Screen name="Home" options={{ title: "Inicio" }} component={WelcomeScreen} />
+                <Tab.Screen name="Profile" options={{title: "Perfil" }} component={ProfileScreen} />
             </Tab.Navigator>
         </NavigationContainer>
     );
