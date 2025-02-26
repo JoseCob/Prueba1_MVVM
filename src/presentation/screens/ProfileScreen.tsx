@@ -73,7 +73,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         textAlign: 'center',
         backgroundColor: "#f1f1f1",
-        //backgroundColor: 'red',
     },
     imgProfile:{
         width: 150,
